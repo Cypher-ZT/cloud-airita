@@ -1,0 +1,29 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: app-provider-payment
+  profiles:
+    include: database
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: '*'
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+mybatis-plus:
+  mapper-locations: classpath*:com/bonc/**/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

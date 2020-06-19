@@ -1,0 +1,15 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: tool-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+#      routes:
+#        - id: payment_routh
+#          uri: lb://app-payment
+#          predicates: [Path=/payment/**]
+

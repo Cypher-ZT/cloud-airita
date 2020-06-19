@@ -1,0 +1,5 @@
+# Project exclude paths
+/app-consumer-order8501/target/
+/app-provider-payment8001/target/
+/app-provider-payment8002/target/
+/common-config-database/target/

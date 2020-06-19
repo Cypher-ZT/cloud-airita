@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app-consumer-order8501/app-consumer-order8501.iml" filepath="$PROJECT_DIR$/app-consumer-order8501/app-consumer-order8501.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-provider-payment8001/app-provider-payment8001.iml" filepath="$PROJECT_DIR$/app-provider-payment8001/app-provider-payment8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-provider-payment8002/app-provider-payment8002.iml" filepath="$PROJECT_DIR$/app-provider-payment8002/app-provider-payment8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-airita.iml" filepath="$PROJECT_DIR$/cloud-airita.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-config-database/common-config-database.iml" filepath="$PROJECT_DIR$/common-config-database/common-config-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-config-nacos/common-config-nacos.iml" filepath="$PROJECT_DIR$/common-config-nacos/common-config-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tool-gateway-gateway9001/tool-gateway-gateway9001.iml" filepath="$PROJECT_DIR$/tool-gateway-gateway9001/tool-gateway-gateway9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tool-nacos-discover9101/tool-nacos-discover9101.iml" filepath="$PROJECT_DIR$/tool-nacos-discover9101/tool-nacos-discover9101.iml" />
+    </modules>
+  </component>
+</project>

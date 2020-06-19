@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app-consumer-order8501" />
+        <module name="tool-gateway-gateway9001" />
+        <module name="app-provider-payment8002" />
+        <module name="app-provider-payment8001" />
+        <module name="common-config-nacos" />
+        <module name="tool-nacos-discover9101" />
+        <module name="common-config-database" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-consumer-order8501" target="1.8" />
+      <module name="app-provider-payment8001" target="1.8" />
+      <module name="app-provider-payment8002" target="1.8" />
+      <module name="cloud-airita" target="1.8" />
+      <module name="cloud-provider-payment8002" target="1.8" />
+      <module name="common-config-database" target="1.8" />
+      <module name="common-config-nacos" target="1.8" />
+      <module name="tool-gateway-gateway9001" target="1.8" />
+      <module name="tool-nacos-discover9101" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app-consumer-order8501" options="-parameters" />
+      <module name="app-provider-payment8001" options="-parameters" />
+      <module name="app-provider-payment8002" options="-parameters" />
+      <module name="cloud-airita" options="" />
+      <module name="cloud-provider-payment8002" options="-parameters" />
+      <module name="common-config-database" options="-parameters" />
+      <module name="common-config-nacos" options="-parameters" />
+      <module name="tool-gateway-gateway9001" options="-parameters" />
+      <module name="tool-nacos-discover9101" options="-parameters" />
+    </option>
+  </component>
+</project>

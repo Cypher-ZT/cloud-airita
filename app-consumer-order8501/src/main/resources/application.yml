@@ -1,0 +1,21 @@
+server:
+  port: 8501
+spring:
+  application:
+    name: app-consumer-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: '*'
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

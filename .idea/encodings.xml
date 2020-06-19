@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app-consumer-order8501/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-provider-payment8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-provider-payment8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-config-database/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-config-database/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-config-nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool-gateway-gateway9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool-nacos-discover9101/src/main/java" charset="UTF-8" />
+  </component>
+</project>

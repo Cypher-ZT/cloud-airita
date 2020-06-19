@@ -1,0 +1,38 @@
+#激活测试环境配置
+spring:
+  profiles:
+    active: dev
+  datasource:
+    druid:
+      #   数据源其他配置
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 20
+      #   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+      webStatFilter:
+        enabled: true
+      statViewServlet:
+        enabled: true
+      filter:
+        stat:
+          enabled: true
+          # 慢SQL记录
+          log-slow-sql: true
+          slow-sql-millis: 3000
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
+        config:
+          enabled: true
+        slf4j:
+          enabled: true

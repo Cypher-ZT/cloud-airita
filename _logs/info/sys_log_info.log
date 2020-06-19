@@ -1,0 +1,211 @@
+2020-06-19 20:00:23.337 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-19 20:01:47.782 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-19 20:01:49.279 [restartedMain] INFO  com.bonc.Payment8001Application - The following profiles are active: database,dev
+2020-06-19 20:01:50.050 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-06-19 20:01:50.463 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-19 20:01:50.658 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=941d7bcc-9223-36bf-b6a5-b6b4d89b3016
+2020-06-19 20:01:51.377 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-19 20:01:51.390 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-19 20:01:51.391 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-19 20:01:51.391 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-19 20:01:51.555 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-19 20:01:51.555 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2255 ms
+2020-06-19 20:01:53.885 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-19 20:01:55.485 [restartedMain] INFO  p6spy - 2020-06-19 20:01:55:485 | took 12ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-19 20:01:55.514 [restartedMain] INFO  p6spy - 2020-06-19 20:01:55:514 | took 1ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-19 20:01:55.534 [restartedMain] INFO  p6spy - 2020-06-19 20:01:55:534 | took 1ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-19 20:01:55.560 [restartedMain] INFO  p6spy - 2020-06-19 20:01:55:560 | took 1ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-19 20:01:55.584 [restartedMain] INFO  p6spy - 2020-06-19 20:01:55:584 | took 1ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-19 20:01:55.593 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-19 20:01:58.326 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-19 20:01:58.326 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-19 20:01:58.335 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-19 20:01:58.336 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-19 20:01:58.571 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-19 20:01:58.762 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-06-19 20:01:59.130 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-06-19 20:02:00.982 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-06-19 20:02:01.178 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-19 20:02:01.197 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2020-06-19 20:02:01.198 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-19 20:02:01.207 [restartedMain] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-06-19 20:02:01.208 [restartedMain] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [logback-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-06-19 20:02:01.209 [restartedMain] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:118)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-06-19 20:02:01.210 [restartedMain] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-06-19 20:02:01.211 [restartedMain] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-06-19 20:02:01.212 [restartedMain] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-06-19 20:02:01.213 [restartedMain] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+ java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+ java.util.concurrent.FutureTask.run(FutureTask.java)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-06-19 20:02:01.214 [restartedMain] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-1992199463] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2754)
+2020-06-19 20:02:01.215 [restartedMain] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-1992199463] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2850)
+2020-06-19 20:02:01.221 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2020-06-19 20:02:01.221 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2020-06-19 20:02:01.225 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-19 20:02:01.229 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-06-19 20:02:01.231 [restartedMain] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-06-19 20:02:01.234 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-19 20:02:01.239 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-19 20:02:01.245 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-19 20:34:51.613 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-19 20:34:53.100 [restartedMain] INFO  com.bonc.Payment8001Application - The following profiles are active: database,dev
+2020-06-19 20:34:53.810 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-06-19 20:34:54.148 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-19 20:34:54.312 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=941d7bcc-9223-36bf-b6a5-b6b4d89b3016
+2020-06-19 20:34:55.007 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-19 20:34:55.018 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-19 20:34:55.019 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-19 20:34:55.019 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-19 20:34:55.178 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-19 20:34:55.178 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2057 ms
+2020-06-19 20:34:56.338 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-19 20:34:57.803 [restartedMain] INFO  p6spy - 2020-06-19 20:34:57:803 | took 12ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-19 20:34:57.828 [restartedMain] INFO  p6spy - 2020-06-19 20:34:57:828 | took 1ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-19 20:34:57.849 [restartedMain] INFO  p6spy - 2020-06-19 20:34:57:849 | took 1ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-19 20:34:57.866 [restartedMain] INFO  p6spy - 2020-06-19 20:34:57:866 | took 0ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-19 20:34:57.883 [restartedMain] INFO  p6spy - 2020-06-19 20:34:57:883 | took 0ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-19 20:34:57.891 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-19 20:35:00.151 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-19 20:35:00.152 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-19 20:35:00.157 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-19 20:35:00.157 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-19 20:35:00.335 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-19 20:35:00.466 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-06-19 20:35:00.696 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-19 20:35:01.814 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-06-19 20:35:01.927 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-19 20:35:01.953 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-19 20:35:02.816 [restartedMain] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP app-payment 172.16.65.122:8001 register finished
+2020-06-19 20:35:03.987 [restartedMain] INFO  com.bonc.Payment8001Application - Started Payment8001Application in 14.328 seconds (JVM running for 16.485)
+2020-06-19 20:35:04.141 [RMI TCP Connection(11)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-19 20:35:04.141 [RMI TCP Connection(11)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-19 20:35:04.149 [RMI TCP Connection(11)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-06-19 20:35:06.446 [RMI TCP Connection(13)-172.16.65.122] INFO  p6spy - 2020-06-19 20:35:06:446 | took 2ms | statement | connection 4
+ /* ping */ SELECT 1;
+2020-06-19 20:40:44.012 [Thread-27] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-06-19 20:40:44.015 [Thread-27] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-06-19 20:40:44.026 [Thread-27] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-06-19 20:40:44.027 [Thread-27] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-19 20:40:44.030 [Thread-27] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-19 20:40:44.042 [Thread-27] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-19 20:41:39.894 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-19 20:41:41.700 [restartedMain] INFO  com.bonc.Payment8002Application - The following profiles are active: database,dev
+2020-06-19 20:41:42.428 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-06-19 20:41:42.816 [restartedMain] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-19 20:41:42.998 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ff5139fb-cbca-33be-805e-e7cb38228431
+2020-06-19 20:41:43.799 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8002 (http)
+2020-06-19 20:41:43.812 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+2020-06-19 20:41:43.813 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-19 20:41:43.813 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-19 20:41:43.992 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-19 20:41:43.992 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2273 ms
+2020-06-19 20:41:45.322 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-19 20:41:46.881 [restartedMain] INFO  p6spy - 2020-06-19 20:41:46:880 | took 16ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-19 20:41:46.908 [restartedMain] INFO  p6spy - 2020-06-19 20:41:46:908 | took 1ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-19 20:41:46.929 [restartedMain] INFO  p6spy - 2020-06-19 20:41:46:929 | took 2ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-19 20:41:46.950 [restartedMain] INFO  p6spy - 2020-06-19 20:41:46:949 | took 1ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-19 20:41:46.970 [restartedMain] INFO  p6spy - 2020-06-19 20:41:46:970 | took 2ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-19 20:41:46.979 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-19 20:41:49.607 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-19 20:41:49.608 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-19 20:41:49.612 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-06-19 20:41:49.612 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-19 20:41:49.777 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-19 20:41:49.908 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-06-19 20:41:50.117 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2020-06-19 20:41:51.454 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-06-19 20:41:51.578 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
+2020-06-19 20:41:51.607 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8002 (http) with context path ''
+2020-06-19 20:41:51.744 [restartedMain] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP app-provider-payment 172.16.65.122:8002 register finished
+2020-06-19 20:41:52.854 [restartedMain] INFO  com.bonc.Payment8002Application - Started Payment8002Application in 15.035 seconds (JVM running for 17.443)
+2020-06-19 20:41:56.295 [RMI TCP Connection(14)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-19 20:41:56.298 [RMI TCP Connection(14)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-19 20:41:56.314 [RMI TCP Connection(14)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-06-19 20:41:56.334 [RMI TCP Connection(15)-172.16.65.122] INFO  p6spy - 2020-06-19 20:41:56:333 | took 2ms | statement | connection 4
+ /* ping */ SELECT 1;
